@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @IMAndzia 
-- 👀 I’m interested in playing sports, drawing realistic things and I love coding, using javascript and python how to use github
+- 👀 I’m interested in playing sports, drawing realistic things and I love coding, using javascript and python
 - 🌱 I’m currently learning how to use github.
 - 💞️ I’m looking to collaborate on making new codes.
 - 📫 How to reach me  aniabartektym@gmail.com
