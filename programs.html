@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programs | FitFusion</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      text-align: center;
+    }
+
+    header {
+      background-color: #d68484;
+      color: white;
+      padding: 20px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      text-align: center;
+    }
+
+    header .logo {
+      width: 100px;
+      height: auto;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin: 10px 0;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin-top: 20px;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.1rem;
+      padding: 10px 20px;
+      transition: background-color 0.3s;
+    }
+
+    nav ul li a:hover {
+      background-color: #d68484;
+      border-radius: 5px;
+    }
+
+    .content {
+      padding-top: 120px;
+      padding: 50px;
+    }
+
+    .programs-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .program-card {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      text-align: left;
+      transition: transform 0.3s;
+      margin-top: 800px;
+    }
+
+    .program-card:hover {
+      transform: scale(1.05);
+    }
+
+    .program-card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .program-card h3 {
+      font-size: 1.7rem;
+      margin: 10px 0;
+    }
+
+    .program-card p {
+      font-size: 1rem;
+      color: #555;
+      margin-bottom: 10px;
+    }
+
+    .cta-button {
+      background-color: #d68484;
+      color: white;
+      padding: 15px 25px;
+      text-decoration: none;
+      font-size: 1.2rem;
+      border-radius: 5px;
+      margin-top: 20px;
+      display: inline-block;
+    }
+
+    .cta-button:hover {
+      background-color: #d68484;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+    }
+
+    footer p {
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="images/fitfusion-logo.png" alt="FitFusion Logo" class="logo">
+    <h1>FitFusion</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Aboutus.html">About</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="content">
+    <h2>Our Fitness Programs</h2>
+    <p>We offer a variety of programs designed to help you achieve your fitness goals. Whether you're looking to build muscle, lose weight, or improve your overall health, FitFusion has the right program for you.</p>
+
+    <div class="programs-list">
+      <div class="program-card">
+        <img src="images/strength-training.jpg" alt="Strength Training">
+        <h3>Strength Training</h3>
+        <p>Our strength training program helps you build muscle, increase strength, and improve endurance. Custom routines designed for all fitness levels.</p>
+        <a href="Strength-Training.html" class="cta-button">Learn More</a>
+      </div>
+
+      <div class="program-card">
+        <img src="images/hiit.jpg" alt="HIIT">
+        <h3>HIIT Workouts</h3>
+        <p>High-Intensity Interval Training is perfect for burning fat and improving cardiovascular fitness in a short amount of time. Get results fast!</p>
+        <a href="HIITWorkouts.html" class="cta-button">Learn More</a>
+      </div>
+
+      <div class="program-card">
+        <img src="images/yoga.jpg" alt="Yoga">
+        <h3>Yoga & Flexibility</h3>
+        <p>Increase your flexibility, reduce stress, and improve mental clarity with our guided yoga sessions. Ideal for all skill levels.</p>
+        <a href="Yoga&Flexibility.html" class="cta-button">Learn More</a>
+      </div>
+
+      <div class="program-card">
+        <img src="images/pilates.jpg" alt="Pilates">
+        <h3>Pilates</h3>
+        <p>Focus on building core strength and improving posture with our Pilates program. A great way to strengthen your body from the inside out.</p>
+        <a href="program-details.html" class="cta-button">Learn More</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 FitFusion. All rights reserved.</p>
+  </footer>
+</body>
+</html>
